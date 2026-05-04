@@ -21,7 +21,10 @@ async function startServer() {
   app.use(express.json());
 
   // Initialize WhatsApp
-  whatsappService.init().catch(err => console.error("WhatsApp Init Error:", err));
+  whatsappService.init().catch(err => {
+      console.error("WhatsApp Init Error (critical):", err);
+      // Optional: If error is fatal for auth, you might want a delay or retry mechanism here.
+  });
 
   // API Routes
   app.get("/api/health", (req, res) => {
