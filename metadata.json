@@ -1,0 +1,6 @@
+{
+  "name": "Monitor zaptocal",
+  "description": "Monitors WhatsApp groups, extracts event details using AI, and syncs them with Calendly.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}
