@@ -1,6 +1,6 @@
 import express from "express";
-import { getAuthUrl, handleCallback } from "../services/calendlyService.ts";
-import { db } from "../services/supabaseService.ts";
+import { getAuthUrl, handleCallback } from "../services/calendlyService.js";
+import { db } from "../services/supabaseService.js";
 
 const router = express.Router();
 

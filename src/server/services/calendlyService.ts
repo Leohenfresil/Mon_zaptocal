@@ -1,5 +1,5 @@
 import axios from "axios";
-import { db } from "./supabaseService.ts";
+import { db } from "./supabaseService.js";
 
 const CLIENT_ID = process.env.CALENDLY_CLIENT_ID;
 const CLIENT_SECRET = process.env.CALENDLY_CLIENT_SECRET;
