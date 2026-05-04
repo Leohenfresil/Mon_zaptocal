@@ -1,5 +1,5 @@
 import express from "express";
-import { whatsappService } from "../services/whatsappService.ts";
+import { whatsappService } from "../services/whatsappService.js";
 
 const router = express.Router();
 
