@@ -1,6 +1,6 @@
 import express from "express";
-import { db } from "../services/supabaseService.js";
-import { createCalendlyEvent } from "../services/calendlyService.js";
+import { db } from "../services/supabaseService.ts";
+import { createCalendlyEvent } from "../services/calendlyService.ts";
 
 const router = express.Router();
 

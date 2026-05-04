@@ -1,8 +1,8 @@
 import express from "express";
-import whatsappRoutes from "./src/server/routes/whatsappRoutes.js";
-import eventRoutes from "./src/server/routes/eventRoutes.js";
-import calendarRoutes from "./src/server/routes/calendarRoutes.js";
-import { whatsappService } from "./src/server/services/whatsappService.js";
+import whatsappRoutes from "./src/server/routes/whatsappRoutes.ts";
+import eventRoutes from "./src/server/routes/eventRoutes.ts";
+import calendarRoutes from "./src/server/routes/calendarRoutes.ts";
+import { whatsappService } from "./src/server/services/whatsappService.ts";
 import dotenv from "dotenv";
 
 dotenv.config();

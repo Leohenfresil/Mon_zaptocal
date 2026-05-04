@@ -8,8 +8,8 @@ import { Boom } from "@hapi/boom";
 import path from "path";
 import fs from "fs";
 import pino from "pino";
-import { db } from "./supabaseService.js";
-import { parseMessage, parseWithRules } from "./parserService.js";
+import { db } from "./supabaseService.ts";
+import { parseMessage, parseWithRules } from "./parserService.ts";
 
 const logger = pino({ level: "error" });
 
